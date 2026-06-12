@@ -2118,6 +2118,9 @@
     font-size: 12px;
     margin: 30px 0 26px;
   }
+  .beyond-hero__claude-shap {
+    right: -12px;
+  }
   .beyond-connection__image {
     margin: auto;
   }
