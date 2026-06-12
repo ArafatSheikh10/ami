@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Event Detail | TeamBonding</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body class="event-detail-page">
+    <!-- header start -->
+    <div class="header__main position-static">
+      <div class="header__bar d-none d-xl-flex align-items-center justify-content-end">
+        <a href="#">SIGN IN<img src="assets/img/icon/arrow-right-line.svg" alt="" /></a>
+      </div>
+      <header class="header position-relative">
+        <div class="container">
+          <div class="header__wrapper d-flex justify-content-between flex-wrap">
+            <a href="index.html" class="header__logo align-self-center"><img src="assets/img/logos/logo.png" alt="logo" class="header__logo-img" /></a>
+            <ul class="header__menu d-none d-xl-flex flex-wrap">
+              <li class="header__menu-item d-flex align-items-center">
+                <a href="#" class="header__menu-link h-100">
+                  <span>Team Building Activities</span>
+                  <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+                </a>
+                <div class="megamenu position-absolute start-0 w-100 bg-white">
+                  <div class="megamenu__wrapper mx-auto d-flex rounded-3">
+                    <div class="megamenu__widget py-0">
+                      <h6 class="megamenu__widget-title px-2 py-1 mb-0 text-uppercase fw-semibold">Team Building Activities</h6>
+                      <ul class="megamenu__links">
+                        <li>
+                          <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                            <img src="assets/img/icon/team-person.svg" alt="team person" />
+                            <span>In-Person Team Building Activities <i class="fst-normal">></i></span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                            <img src="assets/img/icon/virtual-team.svg" alt="virtual team" />
+                            <span>Virtual Team Building Activities <i class="fst-normal">></i></span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                            <img src="assets/img/icon/activities.svg" alt="activities" />
+                            <span>All Activities <i class="fst-normal">></i></span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="megamenu__widget">
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">FEATURED TEAM BUILDING Activities</h6>
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Charitable Activities <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Most Popular Activities <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Fall Activities <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Culinary Activities <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="megamenu__widget">
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">MORE OPTIONS</h6>
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Corporate Retreats <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Corporate Event Consulting <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Keynote Speakers <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">DIY Team Building Products <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item d-flex align-items-center">
+                <a href="#" class="header__menu-link h-100">
+                  <span>Corporate Volunteering</span>
+                  <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+                </a>
+
+                <div class="megamenu position-absolute start-0 w-100 bg-white">
+                  <div class="megamenu__wrapper mx-auto d-flex rounded-3">
+                    <div class="megamenu__widget flex-shrink-0">
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">corporate volunteering</h6>
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Turnkey Corporate Volunteer Programs & Events <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">End-to-End CSR Program Management <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">CSR Strategy & Advisory Services <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">DIY Corporate Volunteering Kits <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <a href="#" class="megamenu__post d-block">
+                      <img src="assets/img/post-thumb-1.jpg" alt="post thumb" class="megamenu__post-thumb w-100 object-fit-cover" />
+                      <h5 class="megamenu__post-title text-decoration-underline mb-0 fw-semibold">Featured post or case study title goes here</h5>
+                    </a>
+                    <a href="#" class="megamenu__post d-block">
+                      <img src="assets/img/post-thumb-1.jpg" alt="post thumb" class="megamenu__post-thumb w-100 object-fit-cover" />
+                      <h5 class="megamenu__post-title text-decoration-underline mb-0 fw-semibold">Featured post or case study title goes here</h5>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item d-flex align-items-center">
+                <a href="#" class="header__menu-link h-100">Professional Development</a>
+              </li>
+              <li class="header__menu-item d-flex align-items-center">
+                <a href="#" class="header__menu-link h-100">
+                  <span>About</span>
+                  <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+                </a>
+                <div class="megamenu position-absolute start-0 w-100 bg-white">
+                  <div class="megamenu__wrapper mx-auto d-block rounded-3">
+                    <div class="megamenu__wrapper-inner d-flex justify-content-between">
+                      <div class="megamenu__widget">
+                        <h6 class="megamenu__widget-title text-uppercase fw-semibold">ABOUT</h6>
+                        <ul class="megamenu__links d-flex flex-column">
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">How We Work <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Who Should Participate in Team Building? <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Benefits of Team Building <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Pricing <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">FAQ <i class="fst-normal">></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="megamenu__widget">
+                        <h6 class="megamenu__widget-title text-uppercase fw-semibold opacity-0">ABOUT</h6>
+                        <ul class="megamenu__links d-flex flex-column">
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Our Story <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Our Impact <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Our Team <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Our Clients <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Partner With Us <i class="fst-normal">></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="megamenu__widget">
+                        <h6 class="megamenu__widget-title text-uppercase fw-semibold">FEATURED LOCATIONS</h6>
+                        <ul class="megamenu__links d-flex flex-column">
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Boston <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Chicago <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Los Angeles <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">New York <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">San Francisco <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">All Locations <i class="fst-normal">></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="megamenu__divider"></div>
+                    <div>
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">INSIGHTS & RESOURCES</h6>
+                      <div class="megamenu__wrapper-inner d-flex justify-content-between">
+                        <div class="megamenu__widget">
+                          <ul class="megamenu__links d-flex flex-column">
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Corporate Team Building <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Employee Engagement <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Employee Productivity <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Employee Training & Development <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">FAQ <i class="fst-normal">></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="megamenu__widget">
+                          <ul class="megamenu__links d-flex flex-column">
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Corporate Social Responsibility & Employee Volunteering <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Innovation in the Workplace <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Organizational Leadership <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">Corporate Events: Strategy, Planning, & Logistics <i class="fst-normal">></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="megamenu__link d-block fw-semibold">All Insights & Resources <i class="fst-normal">></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="header__search-btn d-none d-xl-block align-self-center bg-transparent border-0"><img src="assets/img/icon/Search.svg" alt="Search" /></button>
+            <div class="d-none d-xl-block align-self-center">
+              <a class="header__btn d-inline-flex align-items-center" href="#">Contact Us ></a>
+            </div>
+
+            <button type="button" title="menu bars" class="header__menubar d-xl-none bg-transparent border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!-- header end -->
+
+    <!-- offcanvas menu start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+      <div class="offcanvas-header">
+        <a href="index.html" class="header__logo align-self-center"><img src="assets/img/logos/logo-gray.svg" alt="logo" class="header__logo-img" /></a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+          <div class="header__bar h-auto p-0 bg-transparent">
+            <a href="#">SIGN IN<img src="assets/img/icon/arrow-right-line.svg" alt="arrow right" /></a>
+          </div>
+          <button class="header__search-btn align-self-center bg-transparent border-0"><img src="assets/img/icon/Search.svg" alt="Search" /></button>
+        </div>
+        <ul class="offcanvas__menu">
+          <li class="offcanvas__menu-item">
+            <a data-bs-toggle="collapse" href="#megamenuCollapseOne" role="button" aria-expanded="false" aria-controls="megamenuCollapseOne" class="offcanvas__menu-link d-flex align-items-center justify-content-between fw-semibold">
+              <span>Team Building Activities</span>
+              <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+            </a>
+            <div class="collapse" id="megamenuCollapseOne">
+              <div class="megamenu w-100 px-0 opacity-100 visible">
+                <div class="megamenu__wrapper d-flex flex-column gap-3 rounded-3 bg-white">
+                  <div class="megamenu__widget py-0">
+                    <h6 class="megamenu__widget-title px-2 py-1 mb-0 text-uppercase fw-semibold">Team Building Activities</h6>
+                    <ul class="megamenu__links">
+                      <li>
+                        <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                          <img src="assets/img/icon/team-person.svg" alt="team person" />
+                          <span>In-Person Team Building Activities <i class="fst-normal">></i></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                          <img src="assets/img/icon/virtual-team.svg" alt="virtual team" />
+                          <span>Virtual Team Building Activities <i class="fst-normal">></i></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-flex align-items-center p-2 fw-semibold">
+                          <img src="assets/img/icon/activities.svg" alt="activities" />
+                          <span>All Activities <i class="fst-normal">></i></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="megamenu__widget">
+                    <h6 class="megamenu__widget-title text-uppercase fw-semibold">FEATURED TEAM BUILDING Activities</h6>
+                    <ul class="megamenu__links d-flex flex-column">
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Charitable Activities <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Most Popular Activities <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Fall Activities <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Culinary Activities <i class="fst-normal">></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="megamenu__widget">
+                    <h6 class="megamenu__widget-title text-uppercase fw-semibold">MORE OPTIONS</h6>
+                    <ul class="megamenu__links d-flex flex-column">
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Corporate Retreats <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Corporate Event Consulting <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Keynote Speakers <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">DIY Team Building Products <i class="fst-normal">></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="offcanvas__menu-item">
+            <a data-bs-toggle="collapse" href="#megamenuCollapseThree" role="button" aria-expanded="false" aria-controls="megamenuCollapseThree" class="offcanvas__menu-link d-flex align-items-center justify-content-between fw-semibold">
+              <span>Corporate Volunteering</span>
+              <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+            </a>
+
+            <div class="collapse" id="megamenuCollapseThree">
+              <div class="megamenu w-100 px-0 opacity-100 visible">
+                <div class="megamenu__wrapper d-flex flex-column gap-3 rounded-3 bg-white">
+                  <div class="megamenu__widget">
+                    <h6 class="megamenu__widget-title text-uppercase fw-semibold">corporate volunteering</h6>
+                    <ul class="megamenu__links d-flex flex-column">
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">Turnkey Corporate Volunteer Programs & Events <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">End-to-End CSR Program Management <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">CSR Strategy & Advisory Services <i class="fst-normal">></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="megamenu__link d-block fw-semibold">DIY Corporate Volunteering Kits <i class="fst-normal">></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <a href="#" class="megamenu__post d-block">
+                    <img src="assets/img/post-thumb-1.jpg" alt="post thumb" class="megamenu__post-thumb w-100 object-fit-cover" />
+                    <h5 class="megamenu__post-title text-decoration-underline mb-0 fw-semibold">Featured post or case study title goes here</h5>
+                  </a>
+                  <a href="#" class="megamenu__post d-block">
+                    <img src="assets/img/post-thumb-1.jpg" alt="post thumb" class="megamenu__post-thumb w-100 object-fit-cover" />
+                    <h5 class="megamenu__post-title text-decoration-underline mb-0 fw-semibold">Featured post or case study title goes here</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="offcanvas__menu-item">
+            <a href="#" class="offcanvas__menu-link d-block fw-semibold">Professional Development</a>
+          </li>
+          <li class="offcanvas__menu-item">
+            <a data-bs-toggle="collapse" href="#megamenuCollapseFour" role="button" aria-expanded="false" aria-controls="megamenuCollapseFour" class="offcanvas__menu-link d-flex align-items-center justify-content-between fw-semibold">
+              <span>About</span>
+              <img src="assets/img/icon/arrow-up-s-line.svg" alt="arrow" />
+            </a>
+            <div class="collapse" id="megamenuCollapseFour">
+              <div class="megamenu w-100 px-0 opacity-100 visible">
+                <div class="megamenu__wrapper d-block rounded-3 bg-white">
+                  <div class="megamenu__wrapper-inner d-flex flex-column gap-3 justify-content-between">
+                    <div class="megamenu__widget">
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">ABOUT</h6>
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">How We Work <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Who Should Participate in Team Building? <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Benefits of Team Building <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Pricing <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">FAQ <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="megamenu__widget">
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Our Story <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Our Impact <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Our Team <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Our Clients <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Partner With Us <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="megamenu__widget">
+                      <h6 class="megamenu__widget-title text-uppercase fw-semibold">FEATURED LOCATIONS</h6>
+                      <ul class="megamenu__links d-flex flex-column">
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Boston <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Chicago <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">Los Angeles <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">New York <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">San Francisco <i class="fst-normal">></i></a>
+                        </li>
+                        <li>
+                          <a href="#" class="megamenu__link d-block fw-semibold">All Locations <i class="fst-normal">></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="megamenu__divider"></div>
+                  <div>
+                    <h6 class="megamenu__widget-title text-uppercase fw-semibold">INSIGHTS & RESOURCES</h6>
+                    <div class="megamenu__wrapper-inner d-flex flex-column gap-3 justify-content-between">
+                      <div class="megamenu__widget">
+                        <ul class="megamenu__links d-flex flex-column">
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Corporate Team Building <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Employee Engagement <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Employee Productivity <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Employee Training & Development <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">FAQ <i class="fst-normal">></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="megamenu__widget">
+                        <ul class="megamenu__links d-flex flex-column">
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Corporate Social Responsibility & Employee Volunteering <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Innovation in the Workplace <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Organizational Leadership <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">Corporate Events: Strategy, Planning, & Logistics <i class="fst-normal">></i></a>
+                          </li>
+                          <li>
+                            <a href="#" class="megamenu__link d-block fw-semibold">All Insights & Resources <i class="fst-normal">></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas-footer p-3">
+        <a class="header__btn d-flex align-items-center justify-content-center" href="#">Contact Us ></a>
+      </div>
+    </div>
+    <!-- offcanvas menu end -->
+
+    <main>
+      <!-- hero section start -->
+      <section class="hero hero--style-2 pt-0 position-relative z-1 overflow-hidden">
+        <div class="container">
+          <div class="hero__wrapper position-relative">
+            <div class="breadcrumb__wrapper d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-center justify-content-md-between">
+              <div aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center justify-content-md-start position-static z-3">
+                  <li class="breadcrumb-item fw-medium text-decoration-underline"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item fw-medium text-decoration-underline"><a href="all-activities.html">Team Building Activities</a></li>
+                  <li class="breadcrumb-item fw-medium text-decoration-underline"><a href="in-person.html">In-Person</a></li>
+                  <li class="breadcrumb-item fw-medium active" aria-current="page">Event Name</li>
+                </ol>
+              </div>
+              <div class="action__btns d-flex align-items-center gap-4">
+                <a href="#" class="action__btn d-inline-flex flex-column align-items-center justify-content-center text-center">
+                  <span class="action__btn-icon">
+                    <svg class="svg-inline--fa fa-share-alt fa-stack-1x" aria-hidden="true" focusable="false" data-prefix="far" data-icon="share-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                      <path fill="currentColor" d="M448 128c0 53-43 96-96 96c-28.9 0-54.8-12.8-72.4-33l-89.7 44.9c1.4 6.5 2.1 13.2 2.1 20.1s-.7 13.6-2.1 20.1L279.6 321c17.6-20.2 43.5-33 72.4-33c53 0 96 43 96 96s-43 96-96 96s-96-43-96-96c0-6.9 .7-13.6 2.1-20.1L168.4 319c-17.6 20.2-43.5 33-72.4 33c-53 0-96-43-96-96s43-96 96-96c28.9 0 54.8 12.8 72.4 33l89.7-44.9c-1.4-6.5-2.1-13.2-2.1-20.1c0-53 43-96 96-96s96 43 96 96zM96 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 128a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM352 432a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"></path>
+                    </svg>
+                  </span>
+                  <span>Share</span>
+                </a>
+                <a href="#" class="action__btn d-inline-flex flex-column align-items-center justify-content-center text-center">
+                  <span class="action__btn-icon">
+                    <svg class="svg-inline--fa fa-arrow-to-bottom fa-stack-1x" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="arrow-to-bottom" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
+                      <path fill="currentColor" d="M16 480c-8.8 0-16-7.2-16-16s7.2-16 16-16l352 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 480zM203.3 379.3c-6.2 6.2-16.4 6.2-22.6 0l-128-128c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L176 329.4 176 224l0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 0 105.4L308.7 228.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-128 128z"></path>
+                    </svg>
+                  </span>
+                  <span>Download</span>
+                </a>
+                <a href="#" class="action__btn d-inline-flex flex-column align-items-center justify-content-center text-center">
+                  <span class="action__btn-icon">
+                    <svg class="svg-inline--fa fa-heart fa-stack-1x" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                      <path fill="currentColor" d="M244 130.6l-12-13.5-4.2-4.7c-26-29.2-65.3-42.8-103.8-35.8c-53.3 9.7-92 56.1-92 110.3l0 3.5c0 32.3 13.4 63.1 37.1 85.1L253 446.8c.8 .7 1.9 1.2 3 1.2s2.2-.4 3-1.2L443 275.5c23.6-22 37-52.8 37-85.1l0-3.5c0-54.2-38.7-100.6-92-110.3c-38.5-7-77.8 6.6-103.8 35.8l-4.2 4.7-12 13.5c-3 3.4-7.4 5.4-12 5.4s-8.9-2-12-5.4zm34.9-57.1C311 48.4 352.7 37.7 393.7 45.1C462.2 57.6 512 117.3 512 186.9l0 3.5c0 36-13.1 70.6-36.6 97.5c-3.4 3.8-6.9 7.5-10.7 11l-184 171.3c-.8 .8-1.7 1.5-2.6 2.2c-6.3 4.9-14.1 7.5-22.1 7.5c-9.2 0-18-3.5-24.8-9.7L47.2 299c-3.8-3.5-7.3-7.2-10.7-11C13.1 261 0 226.4 0 190.4l0-3.5C0 117.3 49.8 57.6 118.3 45.1c40.9-7.4 82.6 3.2 114.7 28.4c6.7 5.3 13 11.1 18.7 17.6l4.2 4.7 4.2-4.7c4.2-4.7 8.6-9.1 13.3-13.1c1.8-1.5 3.6-3 5.4-4.5z"></path>
+                    </svg>
+                  </span>
+                  <span>Favorite</span>
+                </a>
+              </div>
+            </div>
+            <div class="row gx-0 gy-5">
+              <div class="col-lg-7">
+                <div class="hero__content pt-4 pt-md-5 pe-md-4">
+                  <h1 class="hero__title text-black mb-2 pb-1">Spin To Win!</h1>
+                  <p class="hero__desc text-black">Spin to Win is our very own “Wheel Of Fortune” style game show where teams take turns to solve the toss-up, spin the wheel, and earn the most dollars. The team with the most money at the end of the show is named the Spin to Win Champions</p>
+                  <a href="#" class="theme__btn">Request a Quote ></a>
+                </div>
+                <div class="hero__info d-flex flex-wrap">
+                  <div class="hero__info-item">
+                    <h6 class="hero__info-title fw-semibold text-uppercase">Available As</h6>
+                    <ul class="hero__info-list d-flex flex-column gap-3">
+                      <li class="fw-semibold">
+                        <a href="#" class="d-flex align-items-center">
+                          <img src="assets/img/icon/team-person.svg" alt="team person" />
+                          <span>In-Person</span>
+                        </a>
+                      </li>
+                      <li class="fw-semibold">
+                        <a href="#" class="d-flex align-items-center">
+                          <img src="assets/img/icon/virtual-team.svg" alt="virtual" />
+                          <span>Virtual <i class="fst-normal">></i></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="d-flex flex-column gap-3">
+                    <div class="hero__info-item">
+                      <h6 class="hero__info-title fw-semibold text-uppercase">TEAM SIZE</h6>
+                      <ul class="hero__info-list d-flex flex-column gap-3">
+                        <li class="d-flex align-items-center">
+                          <img src="assets/img/icon/activities-orange.svg" alt="activities" />
+                          <span>10–100 people</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="hero__info-item">
+                      <h6 class="hero__info-title fw-semibold text-uppercase">Time needed</h6>
+                      <ul class="hero__info-list d-flex flex-column gap-3">
+                        <li class="d-flex align-items-center">
+                          <img src="assets/img/icon/timer.svg" alt="timer" />
+                          <span>60–90 mins</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="hero__info-item">
+                    <h6 class="hero__info-title fw-semibold text-uppercase">OUtcomes</h6>
+                    <ul class="hero__info-list d-flex flex-column">
+                      <li class="d-flex align-items-center">
+                        <span class="check-icon d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"><img src="assets/img/icon/check.svg" alt="check" /></span>
+                        <span>Boost morale</span>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <span class="check-icon d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"><img src="assets/img/icon/check.svg" alt="check" /></span>
+                        <span>Increase engagement</span>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <span class="check-icon d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"><img src="assets/img/icon/check.svg" alt="check" /></span>
+                        <span>Encourage networking</span>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <span class="check-icon d-flex align-items-center justify-content-center rounded-3 flex-shrink-0"><img src="assets/img/icon/check.svg" alt="check" /></span>
+                        <span>Build camaraderie </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="https://www.teambonding.com/location/global/" class="theme__text-btn d-inline-block fw-semibold mt-1">Can be conducted <br />
+                  internationally <span>></span></a>
+              </div>
+              <div class="col-lg-5">
+                <div class="video-slider">
+                  <a href="#" class="video-slider__item d-block position-relative">
+                    <img src="assets/img/video-thumb-1.jpg" alt="video thumb" class="w-100 h-100 object-fit-cover" />
+                    <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+                  </a>
+                  <a href="#" class="video-slider__item d-block position-relative">
+                    <img src="assets/img/video-thumb-1.jpg" alt="video thumb" class="w-100 h-100 object-fit-cover" />
+                    <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+                  </a>
+                  <a href="#" class="video-slider__item d-block position-relative">
+                    <img src="assets/img/video-thumb-1.jpg" alt="video thumb" class="w-100 h-100 object-fit-cover" />
+                    <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+                  </a>
+                  <a href="#" class="video-slider__item d-block position-relative">
+                    <img src="assets/img/video-thumb-sm-2.jpg" alt="video thumb" class="w-100 h-100 object-fit-cover" />
+                    <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+                  </a>
+                  <a href="#" class="video-slider__item d-block position-relative">
+                    <img src="assets/img/video-thumb-1.jpg" alt="video thumb" class="w-100 h-100 object-fit-cover" />
+                    <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+                  </a>
+                </div>
+                <div class="video-slider__nav">
+                  <div class="video-slider__nav-item overflow-hidden">
+                    <img src="assets/img/video-thumb-sm-1.jpg" alt="video thumb small" class="w-100 h-100 object-fit-cover" />
+                  </div>
+                  <div class="video-slider__nav-item overflow-hidden">
+                    <img src="assets/img/video-thumb-sm-1.jpg" alt="video thumb small" class="w-100 h-100 object-fit-cover" />
+                  </div>
+                  <div class="video-slider__nav-item overflow-hidden">
+                    <img src="assets/img/video-thumb-sm-1.jpg" alt="video thumb small" class="w-100 h-100 object-fit-cover" />
+                  </div>
+                  <div class="video-slider__nav-item overflow-hidden">
+                    <img src="assets/img/video-thumb-sm-2.jpg" alt="video thumb small" class="w-100 h-100 object-fit-cover" />
+                  </div>
+                  <div class="video-slider__nav-item overflow-hidden">
+                    <img src="assets/img/video-thumb-sm-1.jpg" alt="video thumb small" class="w-100 h-100 object-fit-cover" />
+                  </div>
+                </div>
+                <div class="slider-nav d-flex align-items-center justify-content-center justify-content-md-end gap-2 mt-4">
+                  <button type="button" title="slide prev" class="slider-nav__btn video-slider__btn-prev d-flex align-items-center justify-content-center rounded-circle">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.21891 8.66673H13.3333V7.3334H5.21891L8.79489 3.75747L7.85209 2.81467L2.66663 8.00007L7.85209 13.1855L8.79489 12.2427L5.21891 8.66673Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button type="button" title="slide next" class="slider-nav__btn video-slider__btn-next d-flex align-items-center justify-content-center rounded-circle">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.781 8.66673L7.20503 12.2427L8.14783 13.1855L13.3333 8.00007L8.14783 2.81467L7.20503 3.75747L10.781 7.3334H2.66663V8.66673H10.781Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hero section end -->
+
+      <!-- brand section start -->
+      <section class="brand overflow-hidden">
+        <div class="container">
+          <div class="brand__wrap gap-4 flex-column flex-md-row">
+            <div class="brand__title flex-shrink-0">
+              <span>CHOSEN BY:</span>
+            </div>
+            <div class="brand__slider-wrap">
+              <div class="brand__slider marquee">
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/mastercard.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/amazon.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/salesforce.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/american-express.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/Microsoft.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/tesla.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/Google.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/Netflix.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/Nike.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/linkedin.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/tiktok.svg" alt="Placeholder" />
+                  </div>
+                </div>
+                <div class="slick-slide">
+                  <div class="brand__logo">
+                    <img src="assets/img/logos/mastercard.svg" alt="Placeholder" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- brand section end -->
+
+      <!-- event-detail section start -->
+      <section class="event-detail">
+        <div class="container">
+          <div class="event-detail__wrapper d-flex flex-column flex-md-row">
+            <div class="event-detail__content flex-grow-1">
+              <h2 class="mb-3 pb-1" data-aos="fade-up">Ready. Set. Wheel.</h2>
+              <p class="para-style-lg fw-medium mb-4 pb-3" data-aos="fade-up" data-aos-delay="100">Spin to Win is our very own “Wheel Of Fortune” style game show, a fun activity that can be added on to your next corporate event.</p>
+              <p class="para-style" data-aos="fade-up" data-aos-delay="150">The best part about our Spin to Win game show is that it can be easily tailored by using your very own slogans, catchphrases, movies, and TV shows. Don’t worry, there isn’t a giant wheel to transport or spin, but the game is just as much fun as it’s shown on television.</p>
+              <p class="para-style" data-aos="fade-up" data-aos-delay="200">
+                This game show is the ultimate word puzzle where contestants spin our wheel, and attempt to solve a “Toss Up” puzzle. Whoever rings in first and solves the puzzle, takes control of the wheel. Teams then get 1 spin and an opportunity to guess a letter. If they guess correctly, they earn money for their
+                team and can try to solve the puzzle. If they can’t, the next team takes control of the wheel, and game play continues until the puzzle is solved.
+              </p>
+              <p class="para-style" data-aos="fade-up" data-aos-delay="250">
+                This classic game show can be played with up to 100 participants. The group will be split into 3 color groups. Whether on stage playing or supporting your team in the audience, everyone is in on the fun. After each puzzle, we swap teammates on stage with some from the audience. The team color with the
+                most money at the end is crowned the Spin to Win Champions.
+              </p>
+              <p class="para-style mb-4 pb-1" data-aos="fade-up" data-aos-delay="300">There is always a need for something to do after dinner, so why not choose our hilarious Spin to Win game show for corporate entertainment where everyone gets involved, and there is no shortage of laughter?</p>
+              <div class="event-detail__info d-flex flex-column">
+                <div class="event-detail__info-item" data-aos="fade-up" data-aos-delay="300">
+                  <h6 class="event-detail__info-title fw-semibold text-uppercase mb-2">Space requirement</h6>
+                  <ul class="event-detail__info-list">
+                    <li class="d-flex align-items-start">
+                      <img src="assets/img/icon/resizer.svg" alt="resizer" />
+                      <p class="para-style mb-0">15×15 foot area in front of room and audience-style seating or tables</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="event-detail__info-item" data-aos="fade-up" data-aos-delay="300">
+                  <h6 class="event-detail__info-title fw-semibold text-uppercase mb-2">Tailoring</h6>
+                  <ul class="event-detail__info-list">
+                    <li class="d-flex align-items-start">
+                      <img src="assets/img/icon/wrench.svg" alt="wrench" />
+                      <div>
+                        <p class="para-style">TeamBonding is all about customization. Would you like specific elements of company branding, culture theme and/or mission statement woven into your team building program?</p>
+                        <p class="para-style">Just tell us what you have in mind. We’re also happy to work with you to focus the overall takeaway from this experience on whatever points you wish to prioritize.</p>
+                        <p class="para-style mb-0">Word puzzles can be selected from our popular puzzles, or they can be customized to meet your team’s unique needs.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="event-detail__right flex-shrink-0">
+              <div class="event-detail__feature" data-aos="fade-up">
+                <img src="assets/img/icon/suitcase.svg" alt="suitcase" class="event-detail__feature-icon mb-2">
+                <h4 class="event-detail__feature-title fw-bold mb-2">What’s included?</h4>
+                <ul class="event-detail__feature-list">
+                  <li>Tailored program design</li>
+                  <li>Dedicated event manager</li>
+                  <li>Professional facilitator & event staff</li>
+                  <li>All event materials</li>
+                  <li>On-site set-up & breakdown</li>
+                  <li>Donation coordination (for charity events)</li>
+                </ul>
+                <div class="mt-4">
+                  <h6 class="fw-normal mb-0">ALSO:</h6>
+                  <ul class="event-detail__feature-list">
+                    <li>No taxes or travel fees (for domestic events)</li>
+                    <li>$5M insurance coverage</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="event-detail__cta text-center mx-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="event-detail__cta-thumb position-relative">
+                  <div class="event-detail__cta-thumb-img d-flex align-items-center justify-content-center rounded-circle bg-white">
+                    <img src="assets/img/icon/SPINTOWIN-logo.svg" alt="SPINTOWIN">
+                  </div>
+                  <img src="assets/img/circle-border-shape.png" alt="circle-border-shape" class="event-detail__cta-thumb-shape position-absolute">
+                </div>
+                <div class="event-detail__cta-content">
+                  <h3 class="fw-bold mb-2">Ready to get started?</h3>
+                  <a href="#" class="theme__btn">Contact Us ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- event-detail section end -->
+
+      <!-- facilitation section start -->
+      <section class="facilitation">
+        <div class="container">
+          <div class="section__title" data-aos="fade-up">
+            <h2>Professional Facilitators</h2>
+            <h3 class="fw-bold mb-0">Engaging even the toughest crowds</h3>
+          </div>
+          <div class="facilitation__card d-flex flex-column flex-md-row">
+            <div class="facilitation__card-thumb d-flex flex-wrap flex-shrink-0" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/facilitator.jpg" alt="facilitator image" class="object-fit-cover">
+              <img src="assets/img/facilitator.jpg" alt="facilitator image" class="object-fit-cover">
+              <img src="assets/img/facilitator.jpg" alt="facilitator image" class="object-fit-cover">
+            </div>
+            <div class="facilitation__card-content" data-aos="fade-up" data-aos-delay="150">
+              <span class="testimonial__quote-icon d-flex align-items-center justify-content-center position-static"><img src="assets/img/icon/quote.svg" alt="quote"></span>
+              <blockquote class="facilitation__quote para-style-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+              <h3 class="fw-bold mb-0"><a href="#">Our Facilitation Approach <span>></span></a></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- facilitation section end -->
+
+      <!-- testimonial section start -->
+      <section class="testimonial overflow-hidden">
+        <div class="container">
+          <div class="section__title mb-4 pb-2" data-aos="fade-up">
+            <h2>This is what our happy clients have to say</h2>
+          </div>
+          <div class="testimonial__slider" data-aos="fade-up" data-aos-delay="100">
+            <div class="slick-slide">
+              <a href="#" class="testimonial__card overflow-hidden d-block position-relative p-0">
+                <img src="assets/img/testimonial-thumb.jpg" alt="testimonial thumb" class="w-100 h-100 object-fit-cover" />
+                <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+              </a>
+            </div>
+            <div class="slick-slide">
+              <div class="testimonial__card position-relative bg-white">
+                <span class="testimonial__quote-icon d-flex align-items-center justify-content-center position-absolute"><img src="assets/img/icon/quote.svg" alt="quote" /></span>
+                <blockquote class="testimonial__quote para-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+                <img src="assets/img/logos/verizon-logo.svg" alt="verizon-logo" class="testimonial__logo" />
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="testimonial__card position-relative bg-white">
+                <span class="testimonial__quote-icon testimonial__quote-icon--blue d-flex align-items-center justify-content-center position-absolute"><img src="assets/img/icon/quote.svg" alt="quote" /></span>
+                <blockquote class="testimonial__quote para-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+                <img src="assets/img/logos/google-2.svg" alt="google-logo" class="testimonial__logo" />
+              </div>
+            </div>
+            <div class="slick-slide">
+              <a href="#" class="testimonial__card overflow-hidden d-block position-relative p-0">
+                <img src="assets/img/testimonial-thumb.jpg" alt="testimonial thumb" class="w-100 h-100 object-fit-cover" />
+                <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+              </a>
+            </div>
+            <div class="slick-slide">
+              <a href="#" class="testimonial__card overflow-hidden d-block position-relative p-0">
+                <img src="assets/img/testimonial-thumb.jpg" alt="testimonial thumb" class="w-100 h-100 object-fit-cover" />
+                <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+              </a>
+            </div>
+            <div class="slick-slide">
+              <div class="testimonial__card position-relative bg-white">
+                <span class="testimonial__quote-icon d-flex align-items-center justify-content-center position-absolute"><img src="assets/img/icon/quote.svg" alt="quote" /></span>
+                <blockquote class="testimonial__quote para-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+                <img src="assets/img/logos/verizon-logo.svg" alt="verizon-logo" class="testimonial__logo" />
+              </div>
+            </div>
+            <div class="slick-slide">
+              <div class="testimonial__card position-relative bg-white">
+                <span class="testimonial__quote-icon testimonial__quote-icon--blue d-flex align-items-center justify-content-center position-absolute"><img src="assets/img/icon/quote.svg" alt="quote" /></span>
+                <blockquote class="testimonial__quote para-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</blockquote>
+                <img src="assets/img/logos/google-2.svg" alt="google-logo" class="testimonial__logo" />
+              </div>
+            </div>
+            <div class="slick-slide">
+              <a href="#" class="testimonial__card overflow-hidden d-block position-relative p-0">
+                <img src="assets/img/testimonial-thumb.jpg" alt="testimonial thumb" class="w-100 h-100 object-fit-cover" />
+                <span class="play-icon d-flex align-items-center justify-content-center rounded-circle position-absolute top-50 start-50 translate-middle"><img src="assets/img/icon/play-icon.svg" alt="play icon" /></span>
+              </a>
+            </div>
+          </div>
+          <div class="slider-nav d-flex align-items-center justify-content-center justify-content-md-end gap-2 position-relative z-1" data-aos="fade-up" data-aos-delay="200">
+            <button type="button" title="slide prev" class="slider-nav__btn testimonial__slider-btn-prev d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.21891 8.66673H13.3333V7.3334H5.21891L8.79489 3.75747L7.85209 2.81467L2.66663 8.00007L7.85209 13.1855L8.79489 12.2427L5.21891 8.66673Z" fill="currentColor" />
+              </svg>
+            </button>
+            <button type="button" title="slide prev" class="slider-nav__btn testimonial__slider-btn-next d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.781 8.66673L7.20503 12.2427L8.14783 13.1855L13.3333 8.00007L8.14783 2.81467L7.20503 3.75747L10.781 7.3334H2.66663V8.66673H10.781Z" fill="currentColor" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section end -->
+
+      <!-- faq section start -->
+      <section class="faq faq--style-2">
+        <div class="container">
+          <div class="section__title">
+            <h2 class="mb-3" data-aos="fade-up">Spin to Win Wheel of Fortune Team Building Game FAQs</h2>
+          </div>
+          <div class="faq__accordion accordion d-flex flex-column mb-0 gap-4" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+            <div class="accordion-item border-0 rounded-0 bg-transparent">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold shadow-none bg-transparent d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                  <span>How can the Wheel of Fortune team building game improve team collaboration?</span>
+                </button>
+              </h2>
+              <div id="faqCollapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p class="para-style mb-0">This activity lets participants work together to solve problems, make collective decisions and communicate. What’s more, it fosters teamwork and unity, which also boosts collaboration among participants. Team members can even have a blast and laugh with colleagues. Furthermore, this can transfer to the workplace and provide enhanced team collaboration in the office as well as enhanced morale.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 rounded-0 bg-transparent">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold shadow-none bg-transparent d-flex align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                  <span>Can the event be customized to reflect our organization’s specific goals and values?</span>
+                </button>
+              </h2>
+              <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p class="para-style mb-0">Answer goes here in sentence case.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 rounded-0 bg-transparent">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold shadow-none bg-transparent d-flex align-items-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                  <span>How can we measure the effectiveness of the Wheel of Fortune team building session?</span>
+                </button>
+              </h2>
+              <div id="faqCollapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p class="para-style mb-0">Answer goes here in sentence case.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq section end -->
+
+      <!-- events section start -->
+      <section class="events pb-0">
+        <div class="container">
+          <div class="events__title section__title text-center mx-auto" data-aos="fade-up">
+            <h2>Other events you may like.</h2>
+          </div>
+          <div class="events__cards d-grid">
+            <div class="product__card overflow-hidden bg-white position-relative" data-aos="fade-up">
+              <span class="product__caption position-absolute top-0 end-0 z-1 fw-bold text-uppercase">new</span>
+              <a href="#" class="product__card-thumb d-block overflow-hidden" tabindex="0">
+                <img src="assets/img/event-thumb-1.jpg" alt="event thumb" class="w-100 h-100 object-fit-cover" />
+              </a>
+              <div class="product__card-content">
+                <h4 class="product__card-title fw-bold mb-2"><a href="#" class="d-block text-decoration-underline" tabindex="0">Event Name Here</a></h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="product__rating d-flex align-items-center">
+                    <img src="assets/img/icon/star.svg" alt="star" />
+                    <span class="fw-medium">5.0</span>
+                  </div>
+                  <button type="button" class="product__add-wishlist-btn bg-transparent border-0" tabindex="0"><img src="assets/img/icon/heart.svg" alt="heart" /></button>
+                </div>
+              </div>
+            </div>
+            <div class="product__card overflow-hidden bg-white position-relative" data-aos="fade-up">
+              <span class="product__caption position-absolute top-0 end-0 z-1 fw-bold text-uppercase">new</span>
+              <a href="#" class="product__card-thumb d-block overflow-hidden" tabindex="0">
+                <img src="assets/img/event-thumb-2.jpg" alt="event thumb" class="w-100 h-100 object-fit-cover" />
+              </a>
+              <div class="product__card-content">
+                <h4 class="product__card-title fw-bold mb-2"><a href="#" class="d-block text-decoration-underline" tabindex="0">Event Name Here</a></h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="product__rating d-flex align-items-center">
+                    <img src="assets/img/icon/star.svg" alt="star" />
+                    <span class="fw-medium">5.0</span>
+                  </div>
+                  <button type="button" class="product__add-wishlist-btn bg-transparent border-0" tabindex="0"><img src="assets/img/icon/heart.svg" alt="heart" /></button>
+                </div>
+              </div>
+            </div>
+            <div class="product__card overflow-hidden bg-white position-relative" data-aos="fade-up">
+              <span class="product__caption position-absolute top-0 end-0 z-1 fw-bold text-uppercase">new</span>
+              <a href="#" class="product__card-thumb d-block overflow-hidden" tabindex="0">
+                <img src="assets/img/event-thumb-3.jpg" alt="event thumb" class="w-100 h-100 object-fit-cover" />
+              </a>
+              <div class="product__card-content">
+                <h4 class="product__card-title fw-bold mb-2"><a href="#" class="d-block text-decoration-underline" tabindex="0">Event Name Here</a></h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="product__rating d-flex align-items-center">
+                    <img src="assets/img/icon/star.svg" alt="star" />
+                    <span class="fw-medium">5.0</span>
+                  </div>
+                  <button type="button" class="product__add-wishlist-btn bg-transparent border-0" tabindex="0"><img src="assets/img/icon/heart.svg" alt="heart" /></button>
+                </div>
+              </div>
+            </div>
+            <div class="product__card overflow-hidden bg-white position-relative" data-aos="fade-up">
+              <span class="product__caption position-absolute top-0 end-0 z-1 fw-bold text-uppercase">new</span>
+              <a href="#" class="product__card-thumb d-block overflow-hidden" tabindex="0">
+                <img src="assets/img/event-thumb-4.jpg" alt="event thumb" class="w-100 h-100 object-fit-cover" />
+              </a>
+              <div class="product__card-content">
+                <h4 class="product__card-title fw-bold mb-2"><a href="#" class="d-block text-decoration-underline" tabindex="0">Event Name Here</a></h4>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="product__rating d-flex align-items-center">
+                    <img src="assets/img/icon/star.svg" alt="star" />
+                    <span class="fw-medium">5.0</span>
+                  </div>
+                  <button type="button" class="product__add-wishlist-btn bg-transparent border-0" tabindex="0"><img src="assets/img/icon/heart.svg" alt="heart" /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- events section end -->
+
+      <!-- cta section start -->
+      <section class="cta cta--bg-periwinkle">
+        <div class="cta__main position-relative overflow-hidden">
+          <div class="container position-relative z-1">
+            <div class="cta__content section__title mb-0 text-center mx-auto pt-lg-5 mt-xl-4">
+              <h2 data-aos="fade-up">Revolutionizing work, one team at a time.</h2>
+              <p class="cta__desc fw-medium mx-auto" data-aos="fade-up" data-aos-delay="100">We’ve been setting the standard for team building since fanny packs were cool (the first time)—bonding teams, bettering businesses, and building a stronger world, one event at a time.</p>
+              <div data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.teambonding.com/about/history/" class="theme__btn">Get Started ></a>
+              </div>
+            </div>
+          </div>
+          <div class="cta__thumb position-relative z-1">
+            <img src="assets/img/cta-thumb.jpg" alt="cta thumb" class="w-100 h-100 object-fit-cover" />
+          </div>
+          <div class="cta__dots-shape position-absolute">
+            <img src="assets/img/circle_dots.png" alt="circle dots" class="w-100 d-none d-md-block" />
+          </div>
+        </div>
+        <div class="container">
+          <form action="#" class="cta__form position-relative z-1">
+            <div class="row g-4">
+              <div class="col-xl-6">
+                <h5 class="cta__form-title d-flex align-items-start fw-semibold text-white mb-0">
+                  <img src="assets/img/icon/party-popper.svg" alt="party popper" />
+                  <span>Unlock exclusive resources for better teams. Every subscription supports charity!</span>
+                </h5>
+              </div>
+              <div class="col-xl-6">
+                <div class="cta__form-wrapper d-flex flex-column flex-md-row gap-4">
+                  <input type="email" class="w-100 input-field" placeholder="email address" />
+                  <button type="button" class="theme__btn flex-shrink-0 border-0">Subscribe Now ></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- cta section end -->
+    </main>
+
+    <!-- footer section start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper d-flex justify-content-lg-between flex-wrap">
+          <div class="footer__widget">
+            <h5 class="footer__widget-title fw-semibold">TeamBonding</h5>
+            <ul class="footer__links d-flex flex-column">
+              <li>
+                <a href="#" class="footer__link">Careers <span>></span></a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Press & Media <span>></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__widget">
+            <h5 class="footer__widget-title fw-semibold">Locations</h5>
+            <ul class="footer__links d-flex flex-column">
+              <li>
+                <a href="#" class="footer__link">Virtual <span>></span></a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">United States <span>></span></a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Canada <span>></span></a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Global <span>></span></a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Preferred Venues <span>></span></a>
+              </li>
+            </ul>
+            <div class="mt-4">
+              <a href="#" class="d-inline-block"><img src="assets/img/logos/catalyst-global.svg" alt="catalyst-global" /></a>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-4 gap-md-5">
+            <div class="footer__widget">
+              <h5 class="footer__widget-title fw-semibold">You Refer, We Reward</h5>
+              <ul class="footer__links d-flex flex-column">
+                <li>
+                  <a href="#" class="footer__link">Earn Up to $350 <span>></span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__widget">
+              <h5 class="footer__widget-title fw-semibold">Be a Partner</h5>
+              <ul class="footer__links d-flex flex-column">
+                <li>
+                  <a href="#" class="footer__link">Be a Venue Partner <span>></span></a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Be a Charity Partner <span>></span></a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Be a Guest Blogger <span>></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__widget">
+            <h5 class="footer__widget-title fw-semibold">Podcast</h5>
+            <ul class="footer__links d-flex flex-column">
+              <li>
+                <a href="#" class="footer__link d-inline-flex align-items-center"><img src="assets/img/icon/microphone.svg" alt="microphone" /> Listen, laugh, & learn</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Be a Podcast Guest <span>></span></a>
+              </li>
+            </ul>
+            <div class="mt-4">
+              <a href="#" class="d-inline-block"><img src="assets/img/logos/podcast-badge.svg" alt="podcast badge" /></a>
+            </div>
+          </div>
+          <div class="footer__widget">
+            <h5 class="footer__widget-title fw-semibold">Contact</h5>
+            <ul class="footer__links d-flex flex-column">
+              <li>
+                <a href="tel:1888398" class="footer__link">1 (888) 398-TEAM</a>
+              </li>
+              <li>
+                <a href="tel:18883988326" class="footer__link">1 (888) 398 - 8326</a>
+              </li>
+              <li>---------------</li>
+              <li><a href="mailto:hello@teambonding.com">hello@teambonding.com</a></li>
+            </ul>
+          </div>
+          <div class="footer__widget footer__widget--logos d-flex flex-column align-items-start">
+            <a href="#" class="d-inline-block"><img src="assets/img/logos/INC5000_seventimehonoree.svg" alt="INC5000_seventimehonoree" /></a>
+            <a href="#" class="d-inline-block"><img src="assets/img/logos/tb-stevie.svg" alt="tb-stevie" /></a>
+          </div>
+        </div>
+        <div class="footer__identity text-center">
+          <div class="footer__social d-flex align-items-center justify-content-center">
+            <a href="#" title="linkedin" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.2451 12.471C16.6342 12.0345 16.9524 11.5945 17.3517 11.2189C18.5768 10.0649 20.0252 9.48279 21.7139 9.49632C22.6412 9.50309 23.5617 9.57078 24.4585 9.83136C26.5059 10.4236 27.6972 11.8348 28.2657 13.8349C28.6921 15.3374 28.77 16.8773 28.7733 18.4238C28.7801 21.6828 28.7632 24.9452 28.7733 28.2042C28.7733 28.5087 28.6887 28.59 28.3875 28.5866C26.709 28.573 25.027 28.573 23.3485 28.5866C23.0541 28.5866 22.9898 28.4986 22.9898 28.2177C22.9999 25.1144 22.9999 22.0111 22.9898 18.9112C22.9898 18.1328 22.939 17.3578 22.719 16.5998C22.3163 15.2088 21.3213 14.4982 19.8628 14.576C17.8695 14.6809 16.8339 15.6691 16.5801 17.6928C16.5192 18.1768 16.4921 18.6607 16.4921 19.1481C16.4921 22.1668 16.4921 25.1821 16.4989 28.2008C16.4989 28.502 16.4244 28.59 16.1165 28.5866C14.4244 28.573 12.7323 28.573 11.0402 28.5866C10.7694 28.5866 10.6916 28.5155 10.6916 28.2414C10.6984 22.2683 10.6984 16.2952 10.6916 10.3187C10.6916 10.0243 10.7897 9.95319 11.0672 9.95658C12.6747 9.97011 14.2822 9.97011 15.8863 9.95658C16.1808 9.95658 16.2586 10.0479 16.2518 10.3288C16.2349 11.0429 16.2451 11.757 16.2451 12.471Z" fill="#A3A3A3" />
+                <path d="M7.04182 19.2942C7.04182 22.2486 7.03843 25.2064 7.04858 28.1608C7.04858 28.4891 6.96736 28.5872 6.62894 28.5838C4.95038 28.5669 3.27182 28.5703 1.59326 28.5838C1.32253 28.5838 1.24469 28.5195 1.24469 28.2387C1.25146 22.2554 1.25146 16.2721 1.24469 10.2889C1.24469 9.83878 1.44436 9.91661 2.70328 10.1027C3.79299 10.2652 4.90639 10.2483 5.98933 10.0452C6.95044 9.86585 7.04858 9.94369 7.04858 10.3599C7.04182 13.338 7.0452 16.3195 7.0452 19.2976L7.04182 19.2942Z" fill="#A3A3A3" />
+                <path d="M7.5031 4.02627C7.5031 6.65241 4.49117 8.58817 1.74997 6.53396C-0.45991 3.8063 1.50969 0.689453 4.15275 0.689453C5.98698 0.689453 7.49972 2.1988 7.49972 4.02627H7.5031Z" fill="#A3A3A3" />
+              </svg>
+            </a>
+            <a href="#" title="facebook" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="18" height="33" viewBox="0 0 18 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0678 18.8149L16.9511 13.0516H11.4213V9.31207C11.4213 7.73504 12.1929 6.19861 14.6701 6.19861H17.1846V1.29153C17.1846 1.29153 14.9036 0.902344 12.7208 0.902344C8.16908 0.902344 5.19099 3.66046 5.19099 8.65892V13.0516H0.128235V18.8149H5.19099V32.7442C6.20625 32.9033 7.2452 32.9879 8.30445 32.9879C9.3637 32.9879 10.4027 32.9033 11.4179 32.7442V18.8149H16.061H16.0678Z" fill="#A3A3A3" />
+              </svg>
+            </a>
+            <a href="#" title="instagram" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.0154 6.71621C25.0154 7.66717 24.2438 8.43876 23.2929 8.43876C22.3419 8.43876 21.5703 7.66717 21.5703 6.71621C21.5703 5.76525 22.3419 4.99365 23.2929 4.99365C24.2438 4.99365 25.0154 5.76525 25.0154 6.71621Z" fill="#A3A3A3" />
+                <path d="M20.9866 28.8919H8.99302C6.7493 28.8919 4.64433 28.0188 3.05715 26.4316C1.47334 24.8478 0.60022 22.7395 0.60022 20.4957V8.50214C0.60022 6.25842 1.47334 4.15345 3.05715 2.56627C4.64095 0.97908 6.7493 0.105957 8.99302 0.105957H20.9866C23.2303 0.105957 25.3353 0.97908 26.9225 2.56627C28.5063 4.15007 29.3794 6.25842 29.3794 8.50214V20.4957C29.3794 22.7395 28.5063 24.8444 26.9225 26.4316C25.3387 28.0188 23.2303 28.8919 20.9866 28.8919ZM8.99302 2.52566C5.69682 2.52566 3.01654 5.20594 3.01654 8.50214V20.4957C3.01654 23.7919 5.69682 26.4722 8.99302 26.4722H20.9866C24.2828 26.4722 26.9631 23.7919 26.9631 20.4957V8.50214C26.9631 5.20594 24.2828 2.52566 20.9866 2.52566H8.99302Z" fill="#A3A3A3" />
+                <path d="M15.4767 22.1594C11.3277 22.1594 7.95361 18.7854 7.95361 14.6363C7.95361 10.4873 11.3277 7.11328 15.4767 7.11328C19.6257 7.11328 22.9997 10.4873 22.9997 14.6363C22.9997 18.7854 19.6257 22.1594 15.4767 22.1594ZM15.4767 9.27917C12.5223 9.27917 10.1195 11.6819 10.1195 14.6363C10.1195 17.5908 12.5223 19.9935 15.4767 19.9935C18.4311 19.9935 20.8339 17.5908 20.8339 14.6363C20.8339 11.6819 18.4311 9.27917 15.4767 9.27917Z" fill="#A3A3A3" />
+              </svg>
+            </a>
+            <a href="#" title="twitter" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M26.6682 23.1502C23.7679 19.6645 20.8643 16.1788 17.964 12.6897C17.9302 12.6491 17.8963 12.6085 17.8625 12.5679L27.6394 0.773936L25.0268 0.530273L16.3937 10.8013L8.26829 1.0379L7.66929 1.08867C5.84521 1.24434 4.02112 1.39663 2.19704 1.54892L-0.00268555 1.73505L4.68781 7.41711C7.05675 10.2903 9.42907 13.1601 11.798 16.0333C11.8318 16.0739 11.8623 16.1145 11.8961 16.1517L1.83832 28.1149L4.68104 28.477L13.3953 17.9623L15.5477 20.5749C17.2669 22.6595 18.986 24.7442 20.7052 26.8255L21.0944 27.2959L29.477 26.5175L26.6715 23.1469L26.6682 23.1502ZM22.0961 24.8863C20.5055 22.9607 18.9184 21.0317 17.3278 19.1061L14.9961 16.2803C14.5223 15.7084 14.0485 15.1365 13.5781 14.5611C11.2092 11.688 8.84022 8.81478 6.4679 5.94499L4.58628 3.66404C5.47971 3.58959 6.36976 3.51513 7.26318 3.4373L14.7863 12.4799C15.2533 13.0416 15.7237 13.6034 16.1907 14.1652C19.0909 17.6509 21.9912 21.1366 24.8915 24.6224L22.0961 24.8829V24.8863Z" fill="#A3A3A3" />
+              </svg>
+            </a>
+            <a href="#" title="youtube" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="33" height="18" viewBox="0 0 33 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.91 0.376465H3.05639C1.492 0.376465 0.223816 1.64465 0.223816 3.20904V15.1282C0.223816 16.6926 1.492 17.9607 3.05639 17.9607H29.91C31.4744 17.9607 32.7425 16.6926 32.7425 15.1282V3.20904C32.7425 1.64465 31.4744 0.376465 29.91 0.376465Z" fill="#A3A3A3" />
+                <path d="M22.6789 8.50593C23.0782 8.72591 23.0884 9.29445 22.6958 9.52796L18.6585 11.9578L14.6211 14.3877C14.232 14.6212 13.7345 14.3471 13.7243 13.8936L13.6397 9.17939L13.5551 4.4652C13.5484 4.01172 14.0357 3.7173 14.4316 3.93727L18.557 6.2216L22.6823 8.50593H22.6789Z" fill="white" style="fill: white" />
+              </svg>
+            </a>
+            <a href="#" title="RSS" class="footer__social-icon d-flex align-items-center justify-content-center rounded-circle">
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.58892 28.1911C2.48395 28.1911 0.77832 26.4854 0.77832 24.3805C0.77832 22.2755 2.48395 20.5732 4.58892 20.5732C6.69389 20.5732 8.39953 22.2789 8.39953 24.3805C8.39953 26.482 6.69389 28.1911 4.58892 28.1911Z" fill="#A3A3A3" />
+                <path d="M15.1935 28.2081C13.5082 28.2081 12.141 26.8408 12.141 25.1555C12.141 23.4262 11.6198 21.8458 10.7264 20.5158C9.82956 19.1892 8.5571 18.1333 7.07144 17.5038C6.07987 17.0842 4.99693 16.8507 3.83953 16.8507C2.1542 16.8507 0.786987 15.4835 0.786987 13.7981C0.786987 12.1128 2.1542 10.7456 3.83953 10.7456C6.81085 10.7456 9.59943 11.6526 11.8939 13.2059C14.1918 14.7593 16.0159 16.9522 17.109 19.5411C17.8399 21.2671 18.2427 23.169 18.2427 25.1487C18.2427 26.8341 16.8755 28.2013 15.1901 28.2013L15.1935 28.2081Z" fill="#A3A3A3" />
+                <path d="M25.0517 28.2093C23.3663 28.2093 21.9991 26.8421 21.9991 25.1568C21.9991 21.3834 20.8587 17.9078 18.8992 15.0042C16.9431 12.1039 14.1613 9.79591 10.9057 8.42192C8.73308 7.50481 6.35399 6.99718 3.83953 6.99718C2.1542 6.99718 0.786987 5.62996 0.786987 3.94463C0.786987 2.2593 2.1542 0.89209 3.83953 0.89209C8.85491 0.89209 13.5386 2.42175 17.4102 5.03773C21.2817 7.65371 24.3511 11.3526 26.1989 15.7115C27.4274 18.6151 28.1076 21.8166 28.1076 25.1568C28.1076 26.8421 26.7438 28.2093 25.0551 28.2093H25.0517Z" fill="#A3A3A3" />
+              </svg>
+            </a>
+          </div>
+          <a href="index.html" class="footer__logo d-inline-block"><img class="footer__logo-img" src="assets/img/logos/logo-gray.svg" alt="logo" /></a>
+          <p class="footer__copyright">© 2025 TeamBonding. All rights reserved.</p>
+          <ul class="footer__links d-flex align-items-center justify-content-center gap-3">
+            <li>
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+            <li>|</li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+
+</html>
